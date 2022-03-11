@@ -1,0 +1,189 @@
+body{
+	font-family:poketype;
+	background-color:red;
+	
+}
+#output{
+	margin-left:20px;
+}
+@font-face{
+	font-family: pokemon;
+	src: url(fonts/Pokemon.ttf);
+}
+@font-face{
+	font-family: poketype;
+	src: url(fonts/Poketype.ttf);
+}
+#content{
+	width:1200px;
+	margin:75px;
+	background-color:white;
+	height:110%;
+	margin-top:0%;
+	border-radius:20px;
+	border:2px black solid;
+}
+#topbar{
+	width:1200px;
+	margin-left:75px;
+	color:yellow;
+	height:150px;
+	text-align:center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family:pokemon;
+}
+#menu{
+	width:1200px;
+	border-radius:20px;
+	height:50px;
+	margin-left:-1px;
+	margin-top:-2px;
+}
+#menuitem{
+	width:170px;
+	height:50px;
+	float:left;
+	text-align:center;
+	font-size:25px;
+	border-radius:20px;
+	border:2px black solid;
+	color:yellow;
+	font-family:pokemon;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-left:1px;
+}
+h1{
+	font-size:80px;
+}
+#rad1{
+	width:300px;
+	height:300px;
+	margin:140px;
+	float:left;
+	border-radius:150px;
+	margin-top:60px;
+	margin-bottom:50px;
+}
+#rad2{
+	width:300px;
+	height:300px;
+	margin:140px;
+	margin-top:60px;
+	float:left;
+	border-radius:150px;
+	margin-bottom:50px;
+}
+#vakje{
+	width:50px;
+	height:30px;
+	margin-left:250px;
+	margin-right:250px;
+	margin-top:10px;
+	border: 2px solid black;
+	float:left;
+}
+#vak{
+	width:50px;
+	height:30px;
+	margin-left:250px;
+	margin-right:250px;
+	margin-top:10px;
+	border: 2px solid black;
+	float:left;
+}
+#witstuk{
+	width:363px;
+	float:left;
+	height:20px;
+}
+#eindvak{
+	width:50px;
+	height:30px;
+	margin-left:100px;
+	float:left;
+	border: 2px solid black;
+}
+#van{
+	width:50px;
+	height:30px;
+	margin-left:250px;
+	margin-right:250px;
+	margin-top:10px;
+	border: 2px solid black;
+	float:left;
+}
+#tot{
+	width:50px;
+	height:30px;
+	margin-left:250px;
+	margin-right:250px;
+	margin-top:10px;
+	border: 2px solid black;
+	float:left;
+}
+#rad-left{
+position: relative;
+}
+
+#rad-left{
+ -webkit-transition:all 8s ease-out;
+ transition:all 8s ease-out;
+ margin-right: 100px;
+}
+
+#rad-right{
+ -webkit-transition:all 8s ease-out;
+ transition:all 8s ease-out;
+ margin-left: 100px;
+}
+#tekst{
+	width:1000px;
+	height:100%;
+	margin:100px;
+}
+#game{
+	width:1196px;
+	height:600px;
+	margin-top:50px;
+	background-image: url(Landschap.png);
+	background-size: contain;
+	border-radius:20px;
+	}
+#pig{
+	width:100px;
+	height:100px;
+	background-size:contain;
+	background-image:url(Varken.png);
+	bottom:-320px;
+	position:relative;
+}
+#cannon{
+	width:100px;
+	height:119px;
+	background-size:contain;
+	background-image:url(cannon.png);
+	top:175px;
+	position:relative;
+	}
+
+
+#controls{
+position:relative;
+top:400px;
+}
+input[type=range].slider{
+width:200px;
+display:inline;
+}
+
+#vuurbal{
+top:60px;
+left:20px;
+position:relative;
+height:56px;
+width:78px;
+background-size:contain;
+background-image:url(vuurbal.png);
+opacity:0;
+z-index:5;
+}
